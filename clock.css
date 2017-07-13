@@ -19,11 +19,12 @@ body {
 
 #center {
   background-color: #909090;
-  width: 1em;
-  height: 1em;
+  width: 3.5%;
+  height: 3.5%;
   z-index: 10;
   border-radius: 100%;
 }
+
 #hour-filler {
   background-color: #D8D8D8;
   height: 60%;

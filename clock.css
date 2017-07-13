@@ -10,11 +10,18 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 25em;
-  height: 25em;
+  width: 10em;
+  height: 10em;
   border: 1px solid #909090;
   border-radius: 100%;
   padding: 1em;
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+  #clock {
+    width: 25em;
+    height: 25em;
+  }
 }
 
 #center {

@@ -2,4 +2,4 @@
 
 set -e
 
-zip -r chrome-blank-new-tab.zip . -x *.git*
+zip -r ticker.zip . -x *.git* *.sh

@@ -19,9 +19,6 @@ body {
 
 #center {
   background-color: #909090;
-  position: absolute;
-  top: 48.5%;
-  left: 48.5%;
   width: 1em;
   height: 1em;
   z-index: 10;

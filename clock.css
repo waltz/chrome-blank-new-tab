@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -14,7 +19,6 @@ body {
   height: 10em;
   border: 1px solid #909090;
   border-radius: 100%;
-  padding: 1em;
 }
 
 @media (min-width: 500px) and (min-height: 400px) {
@@ -35,14 +39,20 @@ body {
 #hour-filler {
   background-color: #D8D8D8;
   height: 60%;
+  width: 100%;
 }
 
 #minute-filler {
   background-color: #C8C8C8;
   height: 80%;
+  width: 80%;
 }
 
 .arm {
+  /*border: 1px dotted green;*/
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   position: absolute;
   top: 0;
   left: 0;
@@ -51,17 +61,17 @@ body {
 }
 
 .hand {
-  position: absolute;
-  top: 0;
-  left: 49.5%;
-  width: 1%;
-  height: 51.5%;
+  /*border: 1px dotted orange;*/
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 2%;
+  height: 50%;
 }
 
 .filler {
   background-color: #B8B8B8;
-  position: absolute;
-  bottom: 0;
   height: 95%;
-  width: 100%;
+  width: 20%;
+  min-width: 1px;
 }

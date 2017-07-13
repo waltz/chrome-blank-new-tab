@@ -4,7 +4,7 @@ const secondArm = document.getElementById('second-arm')
 
 const render = () => {
   const date = new Date()
-  const hours = Math.abs(12 - date.getHours())
+  const hours = date.getHours() % 12
   const hoursInDegrees = (360/12) * hours
   const minutes = date.getMinutes()
   const minutesInDegrees = (360/60) * minutes

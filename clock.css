@@ -29,7 +29,7 @@ body {
 }
 
 #center {
-  background-color: #909090;
+  background-color: #383838;
   width: 3.5%;
   height: 3.5%;
   z-index: 10;
@@ -37,13 +37,13 @@ body {
 }
 
 #hour-filler {
-  background-color: #D8D8D8;
+  background-color: #686868;
   height: 60%;
   width: 100%;
 }
 
 #minute-filler {
-  background-color: #C8C8C8;
+  background-color: #989898;
   height: 80%;
   width: 80%;
 }
